@@ -1,0 +1,17 @@
+{
+  "name": "raid-rollup-inbox",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "hardhat test",
+    "deploy": "ts-node scripts/deploy.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "ethers": "^6.10.0",
+    "hardhat": "^2.21.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.0"
+  }
+}
